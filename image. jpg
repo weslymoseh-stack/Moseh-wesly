@@ -1,0 +1,103 @@
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>J. Moseh Wesly</h1>
+            <h3>Computer Science Student</h3>
+            <p>
+                Passionate about Web Development, UI/UX Design, and Software Engineering.
+            </p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="resume.pdf" class="btn btn2" download>Download Resume</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/profile.jpg" alt="J. Moseh Wesly">
+        </div>
+    </div>
+</section>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+.hero{
+    min-height:100vh;
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:50px;
+}
+
+.hero-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    max-width:1200px;
+    width:100%;
+    gap:60px;
+}
+
+.hero-text{
+    color:white;
+    flex:1;
+}
+
+.hero-text h1{
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+.hero-text h3{
+    color:#00e6a8;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:18px;
+    line-height:30px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#00e6a8;
+    color:#000;
+    text-decoration:none;
+    border-radius:30px;
+    margin-right:15px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-5px);
+}
+
+.btn2{
+    background:white;
+}
+
+.hero-image{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-image img{
+    width:350px;
+    height:450px;
+    object-fit:cover;
+    border-radius:25px;
+    border:5px solid white;
+    box-shadow:0 20px 40px rgba(0,0,0,.4);
+    transition:.4s;
+}
+
+.hero-image img:hover{
+    transform:scale(1.05);
+}
