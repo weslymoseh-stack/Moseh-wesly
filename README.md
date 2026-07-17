@@ -1,1 +1,306 @@
-# Moseh-wesly
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.Moseh Wesly | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <header>
+
+        <div class="logo">
+            Moseh<span>Wesly</span>
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#education">Education</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#internship">Internship</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>J.Moseh Wesly</h1>
+
+            <h2>Computer Science Engineering Student</h2>
+
+            <p id="typing"></p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+
+            <a href="resume.pdf" class="btn2" download>Download Resume</a>
+
+            <div class="social">
+
+                <a href="https://www.linkedin.com/in/moseh-wesly-582617357/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="mailto:weslymoseh@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/profile.jpg" alt="Profile">
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section id="about">
+
+        <h2 class="title">About Me</h2>
+
+        <div class="card">
+
+            <p>
+
+                Hello! I'm <b>J.Moseh Wesly</b>, a Computer Science and Engineering student at
+                <b>Sardar Raja College of Engineering</b>. I enjoy learning modern technologies
+                and creating responsive websites.
+
+                I am passionate about software development, web technologies,
+                and continuously improving my technical skills.
+
+                I am a quick learner, hardworking, and always ready to
+                accept new challenges.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Career Objective -->
+
+    <section>
+
+        <h2 class="title">Career Objective</h2>
+
+        <div class="card">
+
+            <p>
+
+                To begin my professional career in a reputed organization where
+                I can improve my software development skills, learn new technologies,
+                and contribute to the organization's success through dedication,
+                teamwork, and continuous learning.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Education -->
+
+    <section id="education">
+
+        <h2 class="title">Education</h2>
+
+        <div class="timeline">
+
+            <div class="box">
+
+                <h3>BE Computer Science & Engineering</h3>
+
+                <p>Sardar Raja College of Engineering</p>
+
+                <span>CGPA : 7.44</span><br>
+
+                <span>2023 - 2027</span>
+
+            </div>
+
+            <div class="box">
+
+                <h3>Higher Secondary</h3>
+
+                <p>Government Higher Secondary School, Alangulam</p>
+
+                <span>74.16%</span>
+
+            </div>
+
+            <div class="box">
+
+                <h3>SSLC</h3>
+
+                <p>Government Higher Secondary School, Alangulam</p>
+
+                <span>Pass</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills">
+
+        <h2 class="title">Technical Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill">
+                <h4>HTML</h4>
+                <div class="progress"><span style="width:90%"></span></div>
+            </div>
+
+            <div class="skill">
+                <h4>CSS</h4>
+                <div class="progress"><span style="width:80%"></span></div>
+            </div>
+
+            <div class="skill">
+                <h4>JavaScript</h4>
+                <div class="progress"><span style="width:70%"></span></div>
+            </div>
+
+            <div class="skill">
+                <h4>Agile Methodology</h4>
+                <div class="progress"><span style="width:85%"></span></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+
+        <h2 class="title">Projects</h2>
+
+        <div class="project-card">
+
+            <h3>Software Web Development</h3>
+
+            <p>
+
+                Developed a responsive website using HTML and modern web design
+                principles. Focused on user-friendly interface and clean coding.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Internship -->
+
+    <section id="internship">
+
+        <h2 class="title">Internship</h2>
+
+        <div class="project-card">
+
+            <h3>ASF Software Development</h3>
+
+            <p>
+
+                15 Days Internship
+
+            </p>
+
+            <p>
+
+                Learned Software Development,
+                Agile Methodology,
+                SDLC,
+                Teamwork,
+                Project Planning
+                and Software Basics.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+
+        <h2 class="title">Contact</h2>
+
+        <div class="contact-box">
+
+            <p><i class="fas fa-user"></i> J.Moseh Wesly</p>
+
+            <p><i class="fas fa-envelope"></i> weslymoseh@gmail.com</p>
+
+            <p><i class="fas fa-phone"></i> 8220672458</p>
+
+            <p><i class="fas fa-location-dot"></i> Alangulam</p>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        © 2026 J.Moseh Wesly | All Rights Reserved
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
